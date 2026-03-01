@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
-
+const API_URL = import.meta.env.VITE_API_URL || "https://lendr.up.railway.app";
 const FONT = `@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap');`;
 
 const css = `
